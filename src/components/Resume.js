@@ -75,7 +75,10 @@ const styles = theme => ({
   },
   content: {
     margin: "30px 40px 40px",
-    borderLeft: `1px solid ${theme.palette.primary.main}`
+    borderLeft: `1px solid ${theme.palette.primary.main}`,
+    [theme.breakpoints.down(pageWidth)]: {
+      marginLeft: "20px"
+    }
   },
   purpose: {
     marginBottom: "40px"
@@ -392,7 +395,7 @@ class Resume extends Component {
                 </Typography>
               </div>
               <div className={classes.like}>
-                <PieChart width={320} height={320}>
+                <PieChart width={220} height={220}>
                   <Pie
                     dataKey="value"
                     data={data02}
