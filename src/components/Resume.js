@@ -4,7 +4,7 @@ import { withStyles } from "@material-ui/core/styles";
 import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
 import HeadBg from "../assets/head_bg.png";
-import AvatarBg from "../assets/avatar.jpeg";
+import AvatarBg from "../assets/avatar.jpg";
 import Typography from "@material-ui/core/Typography";
 import { PieChart, Pie, Cell } from "recharts";
 import TitleContent from "./TitleContent";
